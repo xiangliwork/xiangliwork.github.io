@@ -124,6 +124,10 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   margin: 0 auto;
 }
 
+/* THEME COLOR */
+.main-color {
+  color: #E74C3C;
+}
 
 /* Utility */
 .chromeframe {
@@ -319,8 +323,8 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   float: left;
   margin-right: 12px;
 }
-.item-box i.icon-envelope{
-
+.item-box i.icon-color{
+  color: #E74C3C;
 }
 .item-box .item-data{
  margin-top: 6px;
@@ -329,7 +333,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   line-height: 1em;
   margin: 3px 0px 0px 0px;
   font-size: 1em;
-
+  color: #E74C3C;
 }
 .item-box .item-data p{
   margin: 0px;
