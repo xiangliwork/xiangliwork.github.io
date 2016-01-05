@@ -69,7 +69,7 @@ dt {font-family:Futura, "Century Gothic", AppleGothic, sans-serif}
 /* HYPERLINKS */
 a { 
   text-decoration: none;
-  color: #E74C3C;
+  color: #5bc0de;
   -webkit-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
   -moz-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
   -ms-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
@@ -91,8 +91,8 @@ ins, mark {text-decoration: none}
 mark {background: #c47529}
 ins {background: #d49855}
 del {text-decoration: line-through}
-::-moz-selection {background: #E74C3C; color: #fff; text-shadow: none} /* selected text */
-::selection {background: #E74C3C; color: #fff; text-shadow: none} /* selected text */
+::-moz-selection {background: #5bc0de; color: #fff; text-shadow: none} /* selected text */
+::selection {background: #5bc0de; color: #fff; text-shadow: none} /* selected text */
 
 /* OTHERS */
 strong, b, dt { font-weight: bold}
@@ -122,11 +122,6 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 .wrapper{
   margin: 0 auto;
-}
-
-/* THEME COLOR */
-.main-color {
-  color: #E74C3C;
 }
 
 /* Utility */
@@ -241,7 +236,8 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 .tab a.active {
   padding-top: 10px;
-  color: #e74c3c;
+  /*color: #5bc0de;*/
+  color: #5bc0de;/*#66CCFF;*/
 }
 .tab a i{
   font-size: 16px;
@@ -324,7 +320,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   margin-right: 12px;
 }
 .item-box i.icon-color{
-  color: #E74C3C;
+  color: #5bc0de;
 }
 .item-box .item-data{
  margin-top: 6px;
@@ -333,7 +329,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   line-height: 1em;
   margin: 3px 0px 0px 0px;
   font-size: 1em;
-  color: #E74C3C;
+  color: #5bc0de;
 }
 .item-box .item-data p{
   margin: 0px;
@@ -351,8 +347,18 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 .work li h5{
   float: left;
+  margin-bottom: 0;
+}
+.work li h6{
+  clear: both;
+  color: #555;
+  float: left;
+  margin-bottom: 0;
+  font-size: 0.9em;
+  font-weight: normal;
 }
 .work li p{
+  padding-top: 1.14em;
   clear: both;
 }
 
@@ -422,7 +428,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   display:inline-block;
   margin: 0 10px 10px 0;    
   padding: 14px 20px;  
-  background: #E74C3C;
+  background: #5bc0de;
   color: #fff;
   font-weight: bold;
   font-size: 13px;
@@ -469,7 +475,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 
 .label-default {
-  background-color: #999999;
+  background-color: #5bc0de;
 }
 
 .label-default[href]:hover,
@@ -502,6 +508,11 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .label-warning[href]:hover,
 .label-warning[href]:focus {
   background-color: #ec971f;
+}
+
+.label-clear {
+  background-color: 0;
+  color: #555;
 }
 
 /* Meters */
