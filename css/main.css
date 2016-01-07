@@ -367,11 +367,20 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 /* Portfolio */
 .text {
-  display: inline-block;
+  display: block;
 }
 
 .text h5 {
   margin-bottom: 0em;
+}
+
+.text p {
+  padding-top: 1.14em;
+  clear: both;
+}
+
+.text span {
+  float: right;
 }
 
 .text .subtitle {
