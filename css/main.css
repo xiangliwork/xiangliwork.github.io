@@ -248,6 +248,16 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .info-wrap{
 
 }
+
+/* Text */
+.subtitle {
+  clear: both;
+  color: #555;
+  float: left;
+  margin-bottom: 0;
+  font-size: 0.9em;
+  font-weight: normal;
+}
 /* Photo */
 .photo{
   float: left;
@@ -349,20 +359,24 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   float: left;
   margin-bottom: 0;
 }
-.work li h6{
-  clear: both;
-  color: #555;
-  float: left;
-  margin-bottom: 0;
-  font-size: 0.9em;
-  font-weight: normal;
-}
+
 .work li p{
   padding-top: 1.14em;
   clear: both;
 }
 
 /* Portfolio */
+.text {
+  display: inline-block;
+}
+
+.text h5 {
+  margin-bottom: 0em;
+}
+
+.text .subtitle {
+  margin-bottom: 0.5em;
+}
 .image{
   position: relative;
 }
