@@ -194,7 +194,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   padding: 30px 20px;
   background: #fff;
   border: 1px solid #f1f1f1;
-  box-shadow: 0px 6px #c0392b;
+  box-shadow: 0px 6px #FF8B34;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -517,13 +517,13 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 
 /* Meters */
 .meter { 
-  height: 24px;  /* Can be anything */
+  height: 5px;  /* Can be anything */
   position: relative;
   border: 1px solid #f1f1f1;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-  margin-bottom: 1em;
+  margin-bottom: 0.8em;
 }
 .meter > span {
   display: block;
@@ -639,6 +639,12 @@ footer p{
   margin-bottom: 0px;
 }
 
+/* sidebar bar's title */
+.sidebar p {
+ margin-bottom: 0em;
+}
+
+
 /* media Queries
 
 FOLDING FLUID GRID
@@ -683,6 +689,8 @@ Change widths as necessary
    padding-left: 20px;
    border-left: 1px solid #f1f1f1;
  }
+
+ 
  /* COLUMN GRID */
  .g1,.g2,.g3 {display:inline; float: left}
 
