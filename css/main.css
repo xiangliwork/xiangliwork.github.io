@@ -319,7 +319,9 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 /* Item Box */
 
 .item-box{
-  padding: 6px 6px 6px 10px;
+  padding: 3px 6px 3px 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
   border: 1px solid #f1f1f1;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -366,6 +368,15 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 
 /* Portfolio */
+
+/*Seperating the works in portfolio.*/
+.seperateWorks {
+  margin-top: 0.5em; 
+  margin-bottom: 0.5em; 
+  border-top: 1px solid #f1f1f1;
+}
+
+/*Descriptions for the work in portfolio*/
 .text {
   display: block;
 }
