@@ -349,6 +349,11 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   color: #999;
 }
 
+.item-box:hover {
+    border: 1px dashed #C0392B;
+    color: #C0392B;
+}
+
 /* WorkExperience */
 .work li{
   border-bottom: 1px solid #f1f1f1;
@@ -478,6 +483,18 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 .btn:hover{
   color: #ccc;
+}
+
+.link-btn {
+  float: right;
+  padding: 3px 10px 3px 6px;
+  border: 1px solid #F1F1F1;
+  border-radius: .25em;
+  margin: 6px 6px;
+}
+.link-btn:hover{
+  color: #C0392B;
+  border: 1px dashed #C0392B;
 }
 
 /* Labels */
