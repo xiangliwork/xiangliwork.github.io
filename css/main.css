@@ -372,16 +372,16 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   clear: both;
 }
 
-/* Portfolio */
+/* Apps */
 
-/*Seperating the works in portfolio.*/
+/*Seperating the works in Apps.*/
 .seperateWorks {
   margin-top: 0.5em; 
   margin-bottom: 0.5em; 
   border-top: 1px solid #f1f1f1;
 }
 
-/*Descriptions for the work in portfolio*/
+/*Descriptions for the work in Apps*/
 .text {
   display: block;
 }
