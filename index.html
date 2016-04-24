@@ -1,531 +1,161 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!doctype html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>iOS Engineer. Love to learn, build, and share.</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
 
-  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>Hi, this is my [linkedIn profile.](www.linkedin.com/lixiang02thu)</title>
 
-    
-    
-  <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-  <script src="js/vendor/jquery.hashchange.min.js"></script>
-  <script src="js/vendor/jquery.easytabs.min.js"></script>
-
-  <script src="js/main.js"></script>
-  <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
-      <![endif]-->
-    <!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
-    for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
-    mixpanel.init("1190259f018b383b9dfe4d3cb0249ced");</script><!-- end Mixpanel -->
 </head>
-  <body class="bg-fixed bg-1">
-<!--[if lt IE 7]>
-    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
-   <div class="main-container">
-    <div class="main wrapper clearfix">
-      <!-- Header Start -->
-        <header id="header">
-            <div id="logo">
-                <h2>
-                    Xiang LI
-                </h2>
-                <h4>
-                    iOS Engineer. Love to learn, build, and share.
-                </h4>
-            </div>
-        </header>
-        <!-- Header End -->
-        <!-- Main Tab Container -->
-        <div id="tab-container" class="tab-container">
-          <!-- Tab List -->
-            <ul class='etabs'>
-                <li class='tab' id="tab-about">
-                  <a href="#about"><i class="fa fa-user"></i><span> About Me</span></a>
-                </li>
-                <li class='tab'>
-                  <a href="#resume"><i class="fa fa-file-text"></i><span> Resume</span></a>
-                </li>
-                <li class='tab'>
-                  <a href="#apps"><i class="fa fa-heart"></i><span> Indie Apps</span></a>
-                </li>
-                <li class='tab'>
-                  <a href="#share"><i class="fa fa-users"></i><span> Share</span></a>
-                </li>
-            </ul>
-          <!-- End Tab List -->
-            <div id="tab-data-wrap">
-              <!-- About Tab Data -->
-                <div id="about">
-                    <section class="clearfix">
-                        <div class="g3">
-                            <div class="photo">
-                                <img src="./images/avatar.jpg" alt="Xiang LI">
-                            </div>
-                            <div class="info">
-                                <h2>
-                                    Xiang LI
-                                </h2>
-                                <h4>
-                                    iOS Engineer. Love to learn, build, and share.
-                                </h4>
-                                <p>
-                                    I'm an iOS developer with 2.5+ years experience, I've built 4 apps with 14+ upgrades on App Store.
-                                    <br><br>
-                                    My most recent app is not currently available on the App Store, but it's a product with a lot of details, high performance and well polished. These are my <a href="#apps">indie apps</a> in 2013/2014.
-                                    <br><br>
-                                    I'm interested in education, such as EdTech, AR applications in education, life-long learning or teaching platform, self-improvement or study tools, share experience platform, learning management system, on-line courses, etc..
-                                    <br><br>
-                                    I love to keep up with the latest technologies, best practices and techniques, learn new things, expand my comfort zone, and build things with craftsman's spirit. I love running & sunshine.
-                                    <br><br>
-                                    Please <a href="mailto:xiangli4job@gmail.com">shoot me an email</a> if you'd like to discuss your project in education.
-                                    More about me, please view <a href="#resume">my resume</a>.
-                                    <br>
-                                    <a href="#apps" class="link-btn">My Indie Apps</a>
-                                    <a href="#resume" class="link-btn">My Resume</a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="break"></div>
-                        <div class="contact-info">
-                          <div class="g1">
-                            <div class="item-box clearfix"><a href="mailto:xiangli4job@gmail.com">
-                              <i class="icon-color fa fa-envelope"></i>
-                              <div class="item-data">
-                                <h3>xiangli4job@gmail.com</h3>
-                                <p>Email</p>
-                              </div>
-                            </a></div>
-                          </div>
-                          <!-- <div class="g1">
-                            <div class="item-box clearfix"><a href="callto:#" target="_blank">
-                              <i class="icon-color fa fa-phone"></i>
-                              <div class="item-data">
-                                <h3>650-924-5311</h3>
-                                <p>Phone/Skype</p>
-                              </div>
-                            </a></div>
-                          </div> -->
-                          <div class="g1">
-                            <div class="item-box clearfix"><a href="https://www.google.com/maps/d/viewer?mid=z1xQ2P_eWOtQ.kFdR6loSttw4&hl=en_US&usp=sharing" target="_blank">
-                              <i class="icon-color fa fa-globe"></i>
-                              <div class="item-data">
-                                <h3>Stanford, CA</h3>
-                                <p>Daytime at Stanford Campus</p>
-                              </div>
-                            </a></div>
-                          </div>
-                          <div class="g1">
-                            <div class="item-box clearfix"><a href="https://github.com/seanli2013" target="_blank" >
-                              <i class="icon-color fa fa-github"></i>
-                              <div class="item-data">
-                                <h3>Seanli2013</h3>
-                                <p>Github</p>
-                              </div>
-                            </a></div>
-                          </div>
-                          <div class="g1">
-                            <div class="item-box clearfix"><a href="https://www.facebook.com/xiangli2016" target="_blank" >
-                              <i class="icon-color fa fa-facebook-square"></i>
-                              <div class="item-data">
-                                <h3>xiangli2016</h3>
-                                <p>Facebook</p>
-                              </div>
-                            </a></div>
-                          </div>
-                          <div class="g1">
-                            <div class="item-box clearfix"><a href="https://twitter.com/lixiang02thu" target="_blank" >
-                              <i class="icon-color fa fa-twitter"></i>
-                              <div class="item-data">
-                                <h3>@lixiang02thu</h3>
-                                <p>Twitter</p>
-                              </div>
-                            </a></div>
-                          </div>
-                          <div class="g1">
-                            <div class="item-box clearfix"><a href="http://weibo.com/lixiang02thu" target="_blank" >
-                              <i class="icon-color fa fa-weibo"></i>
-                              <div class="item-data">
-                                <h3>@大钟威武</h3>
-                                <p>Weibo</p>
-                              </div>
-                            </a></div>
-                          </div>
-                          <div class="g1">
-                            <div class="item-box clearfix"><a href="http://bigbelldev.com" target="_blank" >
-                              <i class="icon-color fa fa-bold"></i>
-                              <div class="item-data">
-                                <h3>bigbelldev.com</h3>
-                                <p>Blog, it's outdated for now, will rebuild it later</p>
-                              </div>
-                            </a></div>
-                          </div>
-                          <div class="g1">
-                            <div class="item-box clearfix"><a href="https://www.linkedin.com/in/lixiang02thu" target="_blank" >
-                              <i class="icon-color fa fa-linkedin-square"></i>
-                              <div class="item-data">
-                                <h3>in/lixiang02thu</h3>
-                                <p>LinkedIn profile</p>
-                              </div>
-                            </a></div>
-                          </div>
-
-                        </div>
-
-                    </section><!-- content -->
-
-                    <!-- My Calendar -->
-                    <!-- <div class="break"></div>
-                    <div class="break"></div>
-                    <div class="responsive-iframe-container">
-                        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=3j6t3m37r203e4vf7udtd2vuus%40group.calendar.google.com&amp;color=%23b90e28&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-                    </div>
- -->
-                </div>
-              <!-- End About Tab Data -->
-              <!-- Resume Tab Data -->
-                <div id="resume">
-                    <section class="clearfix">
-                        <div class="g2">
-                            <h3>
-                                Work Experience
-                            </h3>
-                            <ul class="no-list work">
-                                <li>
-                                    <h5>
-                                        iOS Engineer
-                                    </h5><span class="label label-default">February 2015 - Present</span>
-                                    <h6 class="subtitle">
-                                        Yttro Mobile
-                                    </h6><span class="label label-clear">Mountain View, CA</span>
-                                    <p>
-                                        - Published Yttro for iOS version 1.0 to App Store from nearly scratch in 3 months as sole full-time iOS Engineer. Unfortunately it's removed by Apple a few months later.
-                                        <br>
-                                        - Helped build H5 version
-                                        <br>
-                                        - Helped coordinate on UX/UI, Android, backend, etc.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5>
-                                        iOS Developer
-                                    </h5><span class="label label-default">June 2013 - January 2015</span>
-                                    <h6 class="subtitle">
-                                        Solopreneur
-                                    </h6><span class="label label-clear">Beijing, China / Stanford, CA</span>
-
-                                    <p>
-                                        - Published 3 apps and 13 updates to App Store. 
-                                        <br>
-                                        - Skills trained: mobile product design, architect, development, distribution, marketing, ASO, CRM, etc.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5>
-                                        Product Manager
-                                    </h5><span class="label label-default">October 2011 - May 2013</span>
-                                    <h6 class="subtitle">
-                                        Baidu, Inc.
-                                    </h6><span class="label label-clear">Beijing, China</span>
-
-                                    <p>
-                                        - PM of Pulse, a BI alike product for decision makers(CEO/CFO, E-staff, GMs) in Baidu. 4 PMs lead and coorporated with 20+ divisions, covered 300+ operational indicators, launched version 1.0 successfully within 3 months, and 12 upgrades afterwards.
-                                        <br>
-                                        - Skills trained: requirement management, product design, MRD & roadmap development, coordinate UE(UX/UI)/FE/RD/QA to meet the goals on roadmap, scrum practice over 1 year.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5>
-                                        Intern, Software Engineer, Tech Lead
-                                    </h5><span class="label label-default">July 2007 - October 2011</span>
-                                    <h6 class="subtitle">
-                                        China Railway Signal & Communication Co.
-                                    </h6><span class="label label-clear">BJ, China / Braunschweig, Germany / Hassleholm, Sweden</span>
-                                    <p>
-                                        - Co-inventor & chief software engineer for TSRS(Temporary Speed Restriction System), one of the vital equipments of CTCS-3(Chinese Train Control System level 3). Adapted TSRS perfectly to 6 high-speed railway lines of great importance to China, such as Beijing-Shanghai, Wuhan-Guangzhou, etc. Worked hard day and night, received lots of honors & awards. 
-                                        <br >
-                                        - Skills trained: C, Unix/Linux, SVN, SIL4(Highest standard of safety), Fail-Safe computing platform, Fail-Safe application software.
-                                        <br >
-                                        - Patents: CN102267477B(Grant, Temporary speed restriction command management method and equipment of CTCS-3 system)
-                                    </p>
-                                </li>
-
-                            </ul>
-                            <h3>
-                                Education
-                            </h3>
-                            <ul class="no-list work">
-                                <li>
-                                    <h5>
-                                        Tsinghua University
-                                    </h5><span class="label label-default">August 2002 - February 2009</span>
-                                    <h6 class="subtitle">
-                                        BE & ME, Automation. Field of research: Intelligent Transportation System.
-                                    </h6><span class="label label-clear">Beijing, China</span>
-
-                                    <p>
-                                        - 1st of Jilin province(over 100k competitors) in The National College Entrance Examination.
-                                        <br>
-                                        - SY Program scholarship in Tsinghua(30 out of 3k).
-                                    </p>
-                                </li>
-                            </ul>
-                            <h3>
-                                Other
-                            </h3>
-                            <ul class="no-list work">
-                                <li>
-                                    - Language: Mandarin(native),  English(limited working proficiency, ILR Level 2).
-                                    <br>
-                                    - Love to keep up with the latest technologies, best practices and techniques, learn new things, expand my comfort zone, and build things with craftsman's spirit.
-                                    <br>
-                                    - Love running & sunshine. Extreme hardworking.
-                                    <br>
-                                    - Interested in Education/Training/Learning.
-                                    <br>
-                                </li>
-                            </ul>
-
-                        </div>
-                        <div class="g1">
-                            <div class="sidebar">
-                                <h3>
-                                    Skills
-                                </h3>
-                                <h5>
-                                    Programming Language
-                                </h5>
-                                <p>Objective C</p>
-                                <div class="meter emerald">
-                                    <span style="width: 100%"><span></span></span>
-                                </div>
-                                <p>Swift(learning, love it)</p>
-                                <div class="meter wisteria">
-                                    <span style="width: 33%"><span></span></span>
-                                </div>
-                                <p>Javascript/jQuery/Node.js/React.js</p>
-                                <div class="meter carrot">
-                                    <span style="width: 40%"><span></span></span>
-                                </div>
-                                <p>HTML/CSS</p>
-                                <div class="meter asbestos">
-                                    <span style="width: 30%"><span></span></span>
-                                </div>
-                                <p>Ruby on Rails</p>
-                                <div class="meter sunflower">
-                                    <span style="width: 14%"><span></span></span>
-                                </div>
-                                <div class="break"></div>
-
-                                <h5>
-                                    Dev & Design Tools
-                                </h5>
-                                <p>Xcode/iOS related dev tools</p>
-                                <div class="meter emerald">
-                                    <span style="width: 100%"><span></span></span>
-                                </div>
-                                <p>Git/Github/Bitbucket</p>
-                                <div class="meter carrot">
-                                    <span style="width: 55%"><span></span></span>
-                                </div>
-                                <p>Sketch3</p>
-                                <div class="meter wisteria">
-                                    <span style="width: 23%"><span></span></span>
-                                </div>
-                                <p>Photoshop</p>
-                                <div class="meter sunflower">
-                                    <span style="width: 30%"><span></span></span>
-                                </div>
-                                <p>Matlab</p>
-                                <div class="meter midnight">
-                                    <span style="width: 21%"><span></span></span>
-                                </div>
-                                <p>Sublime</p>
-                                <div class="meter asbestos">
-                                    <span style="width: 25%"><span></span></span>
-                                </div>
-                                <div class="break"></div>
-                                <h5>
-                                    Productive Tools
-                                </h5>
-                                <p>Scrum Experience</p>
-                                <div class="meter emerald">
-                                    <span style="width: 75%"><span></span></span>
-                                </div>
-                                <p>Slack/Asana</p>
-                                <div class="meter carrot">
-                                    <span style="width: 50%"><span></span></span>
-                                </div>
-                                <p>XMind/Mindjet</p>
-                                <div class="meter wisteria">
-                                    <span style="width: 50%"><span></span></span>
-                                </div>
-                                <p>Evernote/Notes</p>
-                                <div class="meter pomengrate">
-                                    <span style="width: 100%"><span></span></span>
-                                </div>
-
-                                <div class="break"></div>
-                                <div class="seperateWorks"></div>
-                                <h5>
-                                    iOS Knowledge Keywords
-                                </h5>
-                                <p>
-                                    Storyboard/Xib/Code, Autolayout, Multithreading/GCD, Core Data, File System, Networking, Background fetches, Core Location/MapKit, Core Motion, Core Graphics, Core Animation, Gestures, Local Notifications, IAP, ARC, etc. Third party: Evernote-SDK, WeChat-SDK, AFNetworking, JSONKit, HighChart, PNChart, SDWebImage, FileHash, iRate, HtmlUnescape, WebP image process, Zip/Unzip, Gif Player, StatusBar Notification, Calendars, Mixpanel/Flurry, etc.
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-              <!-- End Resume Tab Data -->
-              <!-- Apps Tab Data -->
-                <div id="apps">
-                    <section class="clearfix">
-                        <div class="g1">
-                            <div class="image">
-                                <img src="./images/bbartisan.jpg" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://itunes.apple.com/app/id854254851" target="_blank" class="btn">App Store</a>
-                                    </div>
-                                    <br>
-                                    <br>
-                                    <div class="image-link">
-                                        <a href="http://bigbelledu.com" target="_blank" class="btn">Product Page</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g2">
-                            <div class="text">
-                                
-                                <h5>
-                                    Artisan's Workshop - High School Version. 
-                                </h5>
-                                <h6 class="subtitle">
-                                    Chinese Only. Chinese Name: 工匠中学
-                                </h6><span class="label label-default">last update: February 2015</span>
-                                <br>
-                                <p>
-                                    Artisan's Workshop is a product with my passion and social values. It's my second indie app, from design to publish all by myself. I worked on Artisan's Workshop mainly in 2014.
-                                    <br>
-                                    <br>
-                                    I'm very passionate on learning, because I want to be better and better, that brings happiness to people I care. I volunteered to guide high school students in mine and my wife's hometowns a few times in 2013&2014. After talking to them many times, I found two major problems. Some of them have no idea why they should spend time on learning, others just want to get high score in NCEE(National College Entrance Examination) but they couldn't do it well even though they spent enough time. To help them solve those problems, I created Artisan's Workshop.
-                                    <br>
-                                    <br>
-                                    I hope young people open their minds and think independently by reading what my friends and I share to them, then achieve their goals by actual practice. These features are all in this app. It contains reading, a built-in PDCA(plan–do–check–adjust) cycle, reminders, statistics, notes, etc..
-                                    <br>
-                                    <a href="https://itunes.apple.com/app/id885685450" target="_blank" class="link-btn" >App Store - iPad</a>
-                                    <a href="https://itunes.apple.com/app/id854254851" target="_blank" class="link-btn" >App Store - iPhone</a>
-                                    <a href="http://bigbelledu.com" target="_blank" class="link-btn" >Product Page: bigbelledu.com</a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="break"></div>
-                        <div class="seperateWorks"></div>
-                        <div class="break"></div>
-                        <div class="g1">
-                            <div class="image">
-                                <img src="./images/bbreminder.jpg" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://itunes.apple.com/app/id722613216" target="_blank" class="btn">App Store</a>
-                                    </div>
-                                    <br><br>
-                                    <div class="image-link">
-                                        <a href="http://bigbelldev.com/reminder/#/intro" target="_blank" class="btn">Product Page</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g2">
-                            <div class="text">
-                                
-                                <h5>
-                                    BB Reminder - remind people you care
-                                </h5>
-                                <h6 class="subtitle">
-                                    Chinese Only. Chinese Name: bb提醒
-                                </h6><span class="label label-default">last update: April 2014</span>
-                                <br>
-                                <p>
-                                    BB Reminder is a product full of care and love. It's my first indie app, from design to publish all by myself. I worked on BB Reminder mainly in 2013.
-                                    <br>
-                                    <br>
-                                    My wife was having pills every two days back then, she always couldn't remember it right. I should help, right? I tried numbers of apps, none of them could fullfil my requirement. Then I created BB Reminder, supporting customized repeat intervals and easy to inform other people via WeChat/Message/PhoneCall.
-                                    <br>
-                                    <br>
-                                    I was surprisingly happy that BB Reminder got its funs! I received a lot of feedbacks, then I kept it up, delivered 10 distinctive features in 7 updates in total, those features made BB Reminder so different from other reminder apps that 3 VCs contacted me to talk about potential coorporation. Unfortunately, my MBP was stolen in April, 2014, I was so fool that all my codes were on the local git storage, and I didn't use Time Machine either. BB Reminder stopped updates since then. I always push my codes and docs to Github and use Time Machine frequently ever after.
-                                    <br>
-                                    <a href="https://itunes.apple.com/app/id722613216" target="_blank" class="link-btn" >App Store - iPhone</a>
-                                    <a href="http://bbreminder.com" target="_blank" class="link-btn" >Product Page: bbreminder.com</a>
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-              <!-- End apps Data -->
-                <div id="share">
-                    <section class="clearfix">
-                        <div class="g3">
-                            <div class="text">
-                                
-                                <h5>
-                                    To High School Students and College Students in China
-                                </h5>
-                                <h6 class="subtitle">
-                                    My experience can be useful for Chinese students, so in Chinese here.
-                                </h6>
-                                <br>
-                                <p>
-                                    高中生、大学生们，我这一路走来，有成功的经验，更有失败的教训。有可能对你们有帮助的话题是：<b>高考、大学的选择、工作的选择、技能的自学（比如iOS、Web开发）</b>等方面。
-                                    <br>
-                                    <br>
-                                    如果有相关的问题，可以<a href="mailto:bigbelledu@gmail.com">发邮件给我</a>。或许我能帮助到你😄
-                                    
-                                </p>
-                            </div>
-                        </div>
-                        <div class="break"></div>
-
-                    </section>
-                </div>
-              <!-- End share Data -->
-            </div>
-        </div>
-        <!-- End Tab Container -->
-        <div class="break"></div>
-        <div>
-            <p style="text-align: center; font-size: 0.8em">
-                Inspired by a <a href="http://www.mrova.com/free-one-page-responsive-html-resume-template/">free template</a> under a free <a href="http://www.mrova.com/wtfpl-licence/">WTFPL</a> license.
-                <br>
-                Xiang LI © 2016
-            </p>
-        </div>
-    </div><!-- #main -->
-</div><!-- #main-container -->
-
-
-
+<body>
+<h3>Hi, this is my <a href="www.linkedin.com/lixiang02thu">linkedIn profile.</a></h3>
 </body>
 </html>
