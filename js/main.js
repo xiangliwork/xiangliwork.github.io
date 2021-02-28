@@ -7,12 +7,12 @@ $(document).ready( function() {
         	$logo.show();
         }
     }
-    mixpanel.track("Website Visited");
+    // mixpanel.track("Website Visited");
 
 	// Show logo 
 	$('#tab-container .tab a').click(function() {
 	  $logo.slideDown('slow');
-      mixpanel.track("tab clicked");
+      // mixpanel.track("tab clicked");
 	});
 	// Hide logo
 	$('#tab-about').click(function() {
